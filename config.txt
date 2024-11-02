@@ -1,0 +1,4 @@
+Prefix pipelines/RNASeqReadSimulator/
+Plugin GenEXPLV inputfile input/sample.bed outputfile output/explvprofile.txt
+Plugin ReadSim inputfile parameters/parameters.readsim.txt outputfile output/simulated.bed
+Plugin BED2FASTA inputfile parameters/parameters.bed2fasta.txt outputfile output/simulated.fasta
